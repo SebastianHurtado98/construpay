@@ -1,7 +1,9 @@
 export interface User {
-    id: string
-    email: string
-    created_at: string
+    id: string;
+    email: string;
+    created_at: string;
+    first_name: string;
+    last_name: string;
 }
 
 export interface UserCompany {

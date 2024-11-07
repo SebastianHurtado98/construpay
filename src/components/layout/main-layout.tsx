@@ -12,6 +12,9 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
           </Link>
           <div className="space-x-4">
             <Button variant="ghost" asChild>
+              <Link href="/pagar">Cuentas por pagar</Link>
+            </Button>
+            <Button variant="ghost" asChild>
               <Link href="/users">Usuarios</Link>
             </Button>
             <LogoutButton />
